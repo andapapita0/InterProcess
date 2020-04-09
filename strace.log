@@ -1,0 +1,17 @@
+mmap(NULL, 79115, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f1ae8ba0000
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1ae8b9e000
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f1ae859c000
+mmap(0x7f1ae8983000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f1ae8983000
+mmap(0x7f1ae8989000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1ae8989000
+read(3, "\n", 1)                        = 1
+read(3, "CREATE_SHM", 10)               = 10
+read(3, "\5\0343\0", 4)                 = 4
+read(3, "\10", 1)                       = 1
+read(3, "MAP_FILE", 8)                  = 8
+read(3, "\30", 1)                       = 1
+read(3, "test_root/yciGmHh2z6.339", 24) = 24
+mmap(NULL, 92921, PROT_READ, MAP_SHARED, 5, 0) = 0x7f1ae8b87000
+read(3, "\36", 1)                       = 1
+read(3, "READ_FROM_LOGICAL_SPACE_OFFSET", 30) = 30
++++ exited with 0 +++
